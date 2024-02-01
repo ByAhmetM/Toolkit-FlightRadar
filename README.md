@@ -1,8 +1,16 @@
-# React + Vite
+# Uçuş Takip Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu, uçuşları takip etmek için kullanılan bir React tabanlı web uygulamasıdır. Uygulama, Redux Toolkit ve Thunk middleware kullanılarak geliştirilmiş, aynı zamanda Tailwind CSS ile stilize edilmiş ve React Router DOM ile sayfa yönlendirmelerini sağlamaktadır. Ayrıca, belirli uçuşlar hakkında ek bilgiler içeren bir detay modalını içerir.
 
-Currently, two official plugins are available:
+### Ekran Görüntüleri
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Harita Görünümü](ekranGifi.gif)
+
+
+## Özellikler
+
+- **Harita Görünümü:** Uçuşları harita üzerinde görselleştirme.
+- **Liste Görünümü:** Uçuşları liste formatında gösterme.
+- **Detay Modalı:** Belirli bir uçuş hakkında detaylı bilgi görüntüleme.
+
+
